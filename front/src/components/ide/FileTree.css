@@ -1,0 +1,44 @@
+.file-tree-container {
+    padding: 10px;
+    max-height: 100%; /* Adjust as necessary to fit within parent container */
+    overflow-y: auto;
+    //background-color: #f8f9fa; /* Light grey background for the file tree */
+    border-right: 1px solid #dee2e6; /* Border to separate the file tree from the editor */
+}
+
+.file-tree ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 10px; /* Add margin to ensure last item is visible */
+}
+
+.file-tree li {
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+.file-tree li.folder {
+    font-weight: bold;
+    color: #000000; /* Darker color for folder names */
+}
+
+.file-tree li.file {
+    color: #9C9C9C; /* Default color for file names */
+}
+
+/* Highlight the selected file */
+.file.selected {
+    font-weight: bold;
+    color: #FFE5D9; /* Blue color for selected file */
+    background-color: #FFE5D9; /* Light blue background for bubble effect */
+    border: 2px solid #9D8189; /* Border to enhance the bubble effect */
+    border-radius: 15px; /* Rounded corners for bubble effect */
+    padding: 5px 15px; /* Additional padding to enhance the bubble effect */
+    margin: 5px 0; /* Space between items */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}

@@ -1,0 +1,113 @@
+.lessonPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  background-color: #CDB4D8;
+  width: 650px;
+  height: 270px;
+}
+
+.lessonPopup h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.inputContainer {
+  margin-bottom: 15px; /* Add margin between input fields */
+  margin-right: 30px;
+}
+
+.lessonPopup label {
+  display: block;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.lessonPopup input {
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 100%;
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin-top: 5px;
+  opacity: 100%;
+}
+
+.lessonPopup .popupButtons {
+  margin-top: 45px;
+  text-align: center;
+  align: center;
+}
+
+.lessonPopup .popupButtons button {
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 8px 15px;
+  font-family: Koulen, sans-serif;
+  font-size: 0.85rem;
+  cursor: pointer;
+  background-color: #F4ACB7;
+  color: white;
+  border: 0.35px solid white;
+  border-radius: 30px;
+  box-shadow: 0;
+    width: 100px;
+}
+
+/*cancel button*/
+.lessonPopup .popupButtons button:first-child {
+}
+
+/*add button*/
+.lessonPopup .popupButtons button:last-child {
+}
+
+.helpButtonContainer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.helpButton {
+  background-color: white;
+  color: #9D8189;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.helpButton:hover {
+  background-color: #9d8189;
+}
+
+.helpText {
+  position: absolute;
+  bottom: 40px; /* Adjust the distance from the help button */
+  right: calc(100% + 10px); /* Adjust the distance from the help button */
+  background-color: #f4acb7;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px; /* Adjust width as needed */
+}
+
+.helpText p {
+  margin: 0;
+  font-size: 0.9rem;
+}

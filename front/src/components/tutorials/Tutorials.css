@@ -1,0 +1,94 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4acb7;
+}
+#homeButton {
+    font-size: 30px;
+    line-height: 1;
+    border-radius: 20px;
+    height: 5vh;
+    width: 18%;
+    background-color: #FFE5D9;
+    color: #9D8189;
+}
+
+.lessonGrid {
+    background-color: #f4acb7;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  justify-items: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.lessonItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lesson {
+    position: relative;
+  background-color: #FFE5D9;
+  border-radius: 25px;
+  color: #9D8189;
+  font-size: 30px;
+  width: 280px;
+  height: 220px;
+  margin: 15% 10%;
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteButton {
+    position: absolute; /* Add this line */
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: darkred;
+}
+.addLesson{
+    background-color: #FFE5D9;
+    border-radius: 25px;
+    color: #9D8189;
+    font-size: 30px;
+    width: 130px;
+    height: 115px;
+    transition: box-shadow 0.3s ease;
+    text-align: center
+}
+#addlessoncontainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.addLesson {
+    font-size: 2.5rem;
+}

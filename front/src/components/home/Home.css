@@ -1,0 +1,59 @@
+body {
+  background-color: #FFE5D9;
+}
+
+#Home {
+  background-color: #FFE5D9;
+  margin: 0;
+  height: 100vh;
+}
+
+.TitleCard {
+  text-align: center;
+  padding: 10%;
+}
+
+.TitleCard h1 {
+  margin: 0;
+  height: 140px;
+  color: #9D8189;
+  font-size: 120px;
+}
+
+.TitleCard h2 {
+  margin: 0;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.ButtonContainer {
+  text-align: center;
+}
+
+#IdeButton {
+  background-color: #F4ACB7;
+}
+
+#TutorialButton {
+  background-color: #FFCAD4;
+}
+
+#TutorialButton, #IdeButton {
+  border-radius: 25px;
+  color: #FFFFFF;
+  font-size: 30px;
+  width: 300px;
+  height: 200px;
+  margin-right: 30px;
+  margin-left: 30px;
+  transition: box-shadow 0.3s ease;
+}
+
+.Version {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  color: #FFFFFF;
+  font-size: 30px;
+}

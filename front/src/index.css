@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#root {
+    font-family: 'Koulen', sans-serif;
+    position: relative;
+}
+
+button {
+    font-family: 'Koulen', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+}

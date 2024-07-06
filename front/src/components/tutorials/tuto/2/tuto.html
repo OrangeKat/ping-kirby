@@ -1,0 +1,62 @@
+<h1 id="variables-">Variables:</h1>
+<p>A variable is a way to store information so you can use it later. Think of it as giving a name to a particular piece of data. Variables help us remember and use data without having to retype it every time. It&#39;s like writing down your friend&#39;s phone number so you don&#39;t have to remember it every time you want to call them.</p>
+<p>Variables have a type and a value: like their name suggest, can change over time; however, they CANNOT change their type.</p>
+<p>A type may be an object (more information on this later on) or a primitive.
+Here is a list of all primitives in Java:</p>
+<ul>
+<li>byte (number, 1 </li>
+<li>short (number, 2 </li>
+<li>int (number, 4 bytes)</li>
+<li>long (number, 8 bytes)</li>
+<li>float (float number, 4 bytes)</li>
+<li>double (float number, 8 bytes)</li>
+<li>char (a character, 2 bytes)</li>
+<li>boolean (true or false, 1 byte)</li>
+</ul>
+<p>Java is a strong typed language, which means variables need to be defined before we use them</p>
+<p>Let&#39;s take a look at the following variable declarations</p>
+<pre><code class="lang-java">int kir<span class="hljs-comment">;</span>
+int <span class="hljs-keyword">by </span>= <span class="hljs-number">8</span><span class="hljs-comment">;</span>
+kir = <span class="hljs-number">3</span><span class="hljs-comment">;</span>
+<span class="hljs-keyword">by </span>+= <span class="hljs-number">2</span><span class="hljs-comment">;</span>
+</code></pre>
+<pre><code class="lang-java">int kir<span class="hljs-comment">;</span>
+int <span class="hljs-keyword">by </span>= <span class="hljs-keyword">b </span>* <span class="hljs-number">3</span><span class="hljs-comment">;</span>
+</code></pre>
+<p>The variables &quot;kir&quot; and by are initiliazed with type int. by is also given an initial value, equal to 8</p>
+<pre><code class="lang-java"><span class="hljs-attribute">kir</span> = <span class="hljs-number">3</span><span class="hljs-comment">;</span>
+</code></pre>
+<p>The variable &quot;kir&quot; is given a value, equal to a + 3. Because the variable was already declared, no need to specify the type, just type its name.</p>
+<pre><code class="lang-java"><span class="hljs-keyword">by</span> += <span class="hljs-number">2</span>
+</code></pre>
+<p>We are adding 2 to the variable &quot;by&quot; here: the += symbol means that we take the base value of the &quot;by&quot; variable and add the right side to it.</p>
+<h1 id="functions-">Functions:</h1>
+<p>Functions (or methods, both conventions are correct) can be seen like machine turning one or multiple (or maybe none at all) inputs into zero or one output.</p>
+<p>In Java, all function definitions must be inside classes. Let&#39;s look at a function declaration:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Tuto</span> </span>{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> <span class="hljs-keyword">sum</span>(<span class="hljs-keyword">int</span> kir, <span class="hljs-keyword">int</span> <span class="hljs-keyword">by</span>) {
+            <span class="hljs-keyword">return</span> kir + <span class="hljs-keyword">by</span>;
+    }
+}
+</code></pre>
+<p>We will ignore for now the details of the declaration of the class Tuto
+Let&#39;s look at the function declaration:</p>
+<ul>
+<li>The <code>public</code> keyword indicates that everyone can access this function</li>
+<li>The <code>static</code> keyword indicates that the function can be called without an instance of the class Tuto: the function sum can be called using <code>Tuto.sum(a, b);</code></li>
+<li>The <code>int</code> keyword indicates the return type of the function (what the function outputs): here it is an int (integer number)</li>
+<li><code>sum</code> is the name of the function
+<code>int a</code> and <code>int b</code> are the arguments of the function (the function input): here it is two integers. A function can take any number of input, including 0: in that case, you write <code>void</code> in the function declaration</li>
+<li>Finally, the opening brace <code>{</code> declares the body of the function, where the magic happens.</li>
+</ul>
+<p>Now let&#39;s take a look at the function body:</p>
+<pre><code class="lang-java"><span class="hljs-keyword">return</span> kir + <span class="hljs-keyword">by</span>;
+</code></pre>
+<p>The return keyword indicates the end of the function, and its output. Here, we are returning the sum of the <code>kir</code> and the <code>by</code> variables passed as input.</p>
+<h1 id="exercises-">Exercises:</h1>
+<p>Now, let&#39;s apply what we learned here.</p>
+<ul>
+<li>For the first exercise, declare variables such that the function <code>completeMe</code> returns 54.</li>
+<li>For the second exercise, declare a function named <code>triple</code> that takes an int and returns its triple. </li>
+<li>Finally, for the third exercise, fibonacci! The function should return the nth member of the fibonacci suite, defined by F(n) = F(n - 1) + F(n - 2) with initial states F(0) = 0 and F(1) = 1</li>
+</ul>

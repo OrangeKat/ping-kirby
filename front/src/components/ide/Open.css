@@ -1,0 +1,115 @@
+/* Open.css */
+.file-selector-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.file-selector-btn {
+    margin: 15px;
+    width: 70%;
+    height: 20%;
+    font-size: 2vh;
+    background-color: #F4ACB7;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #CDB4DB;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.path-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.path-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.browse-btn {
+    background-color: #FFE5D9;
+    color: #9D8189;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.browse-btn:hover {
+    background-color: #5A6268;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #FFE5D9;
+    color: #9D8189;
+}
+.modal-btn.add-btn {
+    background-color: #98DB81;
+    color: white;
+}
+
+.modal-btn:hover {
+    background-color: #C8D2CC;
+}
+
+.modal-btn.cancel-btn {
+    background-color: #DC3545;
+    color: white;
+}
+
+.modal-btn.cancel-btn:hover {
+    background-color: #C82333;
+}

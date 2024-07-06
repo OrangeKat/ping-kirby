@@ -1,0 +1,179 @@
+.Tuto {
+    background-color: #F4ACB7;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.NavigationTutorial {
+    margin: 1%;
+    width: 40%;
+}
+
+#HomeButton {
+    font-size: 30px;
+    line-height: 1;
+    border-radius: 20px;
+    margin-right: 12vh;
+    height: 5vh;
+    width: 40%;
+    background-color: #FFE5D9;
+    color: #9D8189;
+}
+
+#NextButton {
+    font-size: 30px;
+    line-height: 1;
+    border-radius: 20px;
+    height: 5vh;
+    width: 40%;
+    right: 60vh;
+    background-color: #FFE5D9;
+    color: #9D8189;
+}
+
+#Tutorial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 93%;
+    width: 100%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+}
+
+#TutorialName {
+    font-size: 3.5vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #F1F1F1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 6%;
+    width: 100%;
+}
+
+#TutorialText {
+    background-color: #ffffff;
+    width: 100%;
+    height: 94%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: Inter;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.EditorTuto {
+    margin: 1%;
+    width: 60%;
+}
+
+#ProgressBarContainer {
+    width: 100%;
+    height: 5%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ProgressBar {
+    width: 98%;
+    height: 100%;
+    background-color: #ff0000;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* Ensures the inner bar doesn't overflow */
+    position: relative;
+}
+
+#ProgressBarInner {
+    height: 100%;
+    background-color: green;
+    transition: width 0.5s ease-in-out;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#EditorTuto {
+    margin-top: 2vh;
+    width: 98%;
+    height: 64%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.JavaEditor {
+    flex: 1;
+    height: 100%;
+    width: 97%;
+    margin: 2vh;
+}
+
+#Test {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 2vh;
+    width: 96%;
+    height: 25%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#SaveTuto {
+    background-color: #F4ACB7;
+    color: #FFFFFF;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 9.5vh;
+    right: 5vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#RestoreEditor {
+    background-color: #FFA1A1;
+    color: #9D8189;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 9.5vh;
+    right: 12vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#DebugTest {
+    background-color: #CDB4DB;
+    color: #9D8189;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 73.5vh;
+    right: 12vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#RunTest {
+    background-color: #98DB81;
+    color: #9D8189;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 73.5vh;
+    right: 5vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

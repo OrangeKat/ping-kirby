@@ -1,0 +1,122 @@
+.IDE {
+    background-color: #F4ACB7;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.NavigationIDE {
+    margin: 1%;
+    width: 20%;
+}
+
+#BackButtonIDE {
+    font-size: 30px;
+    line-height: 1;
+    border-radius: 20px;
+    height: 5vh;
+    width: 100%;
+    background-color: #FFE5D9;
+    color: #9D8189;
+}
+
+#ExecButtons {
+    height: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#GitButton {
+    width: 33%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #9D8189;
+    background-color: #FFA1A1;
+    font-size: 3vh;
+    box-shadow: 0 0 0;
+}
+
+#MavenButton {
+    width: 34%;
+    height: 100%;
+    color: #9D8189;
+    background-color: #CDB4D4;
+    font-size: 3vh;
+    box-shadow: 0 0 0;
+}
+
+#RunButton {
+    width: 33%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #D8E2DC;
+    color: #9D8189;
+    font-size: 3vh;
+    box-shadow: 0 0 0;
+}
+
+#GitButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 80vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.GitButton {
+    background-color: #F4ACB7;
+    color: #FFFFFF;
+    width: 80%;
+    height: 5%;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.EditorIDE {
+    width: 80%;
+}
+
+#Editor {
+    margin-top: 1.8vh;
+    width: 98%;
+    height: 70%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.JavaEditor {
+    flex: 1;
+    height: 100%;
+    width: 97%;
+    margin: 2vh;
+}
+
+#Output {
+    margin-top: 2vh;
+    width: 98%;
+    height: 22%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#SaveEditor {
+    background-color: #F4ACB7;
+    color: #FFFFFF;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 3vh;
+    right: 5vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
